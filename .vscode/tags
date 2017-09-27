@@ -1,0 +1,110 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../myblog/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170925_0955.py	../myblog/migrations/0002_auto_20170925_0955.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../blog/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../blog/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:89
+BASE_DIR	../blog/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Category	../myblog/models.py	/^class Category(models.Model):$/;"	kind:class	line:18
+CategorySerializer	../myblog/serializers.py	/^class CategorySerializer(serializers.ModelSerializer):$/;"	kind:class	line:4
+DATABASES	../blog/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
+DEBUG	../blog/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../blog/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../blog/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:108
+MIDDLEWARE	../blog/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+Meta	../myblog/models.py	/^    class Meta:$/;"	kind:class	line:12
+Meta	../myblog/models.py	/^    class Meta:$/;"	kind:class	line:21
+Meta	../myblog/models.py	/^    class Meta:$/;"	kind:class	line:32
+Meta	../myblog/serializers.py	/^    class Meta:$/;"	kind:class	line:10
+Meta	../myblog/serializers.py	/^    class Meta:$/;"	kind:class	line:17
+Meta	../myblog/serializers.py	/^    class Meta:$/;"	kind:class	line:5
+Migration	../myblog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../myblog/migrations/0002_auto_20170925_0955.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+MyblogConfig	../myblog/apps.py	/^class MyblogConfig(AppConfig):$/;"	kind:class	line:7
+Post	../myblog/models.py	/^class Post(models.Model):$/;"	kind:class	line:26
+PostSerializer	../myblog/serializers.py	/^class PostSerializer(serializers.ModelSerializer):$/;"	kind:class	line:13
+Post_lc	../myblog/views.py	/^class Post_lc(generics.ListCreateAPIView):$/;"	kind:class	line:10
+Post_rud	../myblog/views.py	/^class Post_rud(generics.RetrieveUpdateDestroyAPIView):$/;"	kind:class	line:13
+ROOT_URLCONF	../blog/settings.py	/^ROOT_URLCONF = 'blog.urls'$/;"	kind:variable	line:54
+SECRET_KEY	../blog/settings.py	/^SECRET_KEY = 't$#nk9*+)ar+g9!-rdgp@@e2li=9pf8*_52^pq5wz2g914_1s*'$/;"	kind:variable	line:23
+STATIC_URL	../blog/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
+TEMPLATES	../blog/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TIME_ZONE	../blog/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:110
+Tag	../myblog/models.py	/^class Tag(models.Model):$/;"	kind:class	line:9
+TagSerializer	../myblog/serializers.py	/^class TagSerializer(serializers.ModelSerializer):$/;"	kind:class	line:9
+USE_I18N	../blog/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
+USE_L10N	../blog/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
+USE_TZ	../blog/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
+WSGI_APPLICATION	../blog/settings.py	/^WSGI_APPLICATION = 'blog.wsgi.application'$/;"	kind:variable	line:72
+__init__.py	../blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../myblog/__init__.py	1;"	kind:file	line:1
+__init__.py	../myblog/migrations/__init__.py	1;"	kind:file	line:1
+__unicode__	../myblog/models.py	/^    def __unicode__(self):$/;"	kind:member	line:15
+__unicode__	../myblog/models.py	/^    def __unicode__(self):$/;"	kind:member	line:24
+__unicode__	../myblog/models.py	/^    def __unicode__(self):$/;"	kind:member	line:35
+admin.py	../myblog/admin.py	1;"	kind:file	line:1
+application	../blog/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../myblog/apps.py	1;"	kind:file	line:1
+category	../myblog/models.py	/^    category = models.ForeignKey(Category,verbose_name=u'文章分类')$/;"	kind:variable	line:27
+content	../myblog/models.py	/^    content = models.TextField(verbose_name=u'文章内容')$/;"	kind:variable	line:29
+content	../myblog/serializers.py	/^    content = {'content': {'write_only': True}}$/;"	kind:variable	line:15
+created	../myblog/models.py	/^    created = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:31
+created	../myblog/models.py	/^    created = models.DateTimeField(auto_now_add=True,verbose_name=u'创建时间')$/;"	kind:variable	line:11
+created	../myblog/models.py	/^    created = models.DateTimeField(auto_now_add=True,verbose_name=u'创建时间')$/;"	kind:variable	line:20
+dependencies	../myblog/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	../myblog/migrations/0002_auto_20170925_0955.py	/^    dependencies = [$/;"	kind:variable	line:10
+field	../myblog/migrations/0001_initial.py	/^            field=models.ManyToManyField(to='myblog.Tag', verbose_name='\\u6587\\u7ae0\\u6807\\u7b7e'),$/;"	kind:variable	line:58
+fields	../myblog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../myblog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:31
+fields	../myblog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:45
+fields	../myblog/serializers.py	/^        fields = ('id','category','title','content','tags','created')/;"	kind:variable	line:19
+fields	../myblog/serializers.py	/^        fields = ('id','name','created')$/;"	kind:variable	line:12
+fields	../myblog/serializers.py	/^        fields = ('id','name','created')$/;"	kind:variable	line:7
+initial	../myblog/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+manage.py	../manage.py	1;"	kind:file	line:1
+model	../myblog/serializers.py	/^        model = Category$/;"	kind:variable	line:6
+model	../myblog/serializers.py	/^        model = Post$/;"	kind:variable	line:18
+model	../myblog/serializers.py	/^        model = Tag$/;"	kind:variable	line:11
+model_name	../myblog/migrations/0001_initial.py	/^            model_name='post',$/;"	kind:variable	line:56
+model_name	../myblog/migrations/0002_auto_20170925_0955.py	/^            model_name='post',$/;"	kind:variable	line:16
+models.py	../myblog/models.py	1;"	kind:file	line:1
+name	../myblog/apps.py	/^    name = 'myblog'$/;"	kind:variable	line:8
+name	../myblog/migrations/0001_initial.py	/^            name='Category',$/;"	kind:variable	line:18
+name	../myblog/migrations/0001_initial.py	/^            name='Post',$/;"	kind:variable	line:30
+name	../myblog/migrations/0001_initial.py	/^            name='Tag',$/;"	kind:variable	line:44
+name	../myblog/migrations/0001_initial.py	/^            name='tags',$/;"	kind:variable	line:57
+name	../myblog/models.py	/^    name = models.CharField(max_length=100,verbose_name=u'分类')$/;"	kind:variable	line:19
+name	../myblog/models.py	/^    name = models.CharField(max_length=100,verbose_name=u'标签')$/;"	kind:variable	line:10
+new_name	../myblog/migrations/0002_auto_20170925_0955.py	/^            new_name='category',$/;"	kind:variable	line:18
+old_name	../myblog/migrations/0002_auto_20170925_0955.py	/^            old_name='catrgory',$/;"	kind:variable	line:17
+operations	../myblog/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../myblog/migrations/0002_auto_20170925_0955.py	/^    operations = [$/;"	kind:variable	line:14
+options	../myblog/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:24
+options	../myblog/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:38
+options	../myblog/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:50
+queryset	../myblog/views.py	/^    queryset = Post.objects.all()$/;"	kind:variable	line:11
+queryset	../myblog/views.py	/^    queryset = Post.objects.all()$/;"	kind:variable	line:14
+serializer_class	../myblog/views.py	/^    serializer_class = PostSerializer$/;"	kind:variable	line:12
+serializer_class	../myblog/views.py	/^    serializer_class = PostSerializer$/;"	kind:variable	line:15
+serializers.py	../myblog/serializers.py	1;"	kind:file	line:1
+settings.py	../blog/settings.py	1;"	kind:file	line:1
+tags	../myblog/models.py	/^    tags = models.ManyToManyField(Tag,verbose_name=u'文章标签')$/;"	kind:variable	line:30
+tags	../myblog/serializers.py	/^    tags = TagSerializer(many=True)$/;"	kind:variable	line:16
+tests.py	../myblog/tests.py	1;"	kind:file	line:1
+title	../myblog/models.py	/^    title = models.CharField(max_length=100,verbose_name=u'文章标题')$/;"	kind:variable	line:28
+urlpatterns	../blog/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urlpatterns	../myblog/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urls.py	../blog/urls.py	1;"	kind:file	line:1
+urls.py	../myblog/urls.py	1;"	kind:file	line:1
+verbose_name	../myblog/models.py	/^        verbose_name=u'文章'$/;"	kind:variable	line:33
+verbose_name	../myblog/models.py	/^        verbose_name=u'文章分类'$/;"	kind:variable	line:22
+verbose_name	../myblog/models.py	/^        verbose_name=u'文章标签'$/;"	kind:variable	line:13
+verbose_name_plural	../myblog/models.py	/^        verbose_name_plural = verbose_name$/;"	kind:variable	line:14
+verbose_name_plural	../myblog/models.py	/^        verbose_name_plural = verbose_name$/;"	kind:variable	line:23
+verbose_name_plural	../myblog/models.py	/^        verbose_name_plural = verbose_name$/;"	kind:variable	line:34
+views.py	../myblog/views.py	1;"	kind:file	line:1
+wsgi.py	../blog/wsgi.py	1;"	kind:file	line:1
